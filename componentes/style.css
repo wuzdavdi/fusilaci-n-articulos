@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Skranji&display=swap');
+
+*{
+    box-sizing: border-box;
+    transition: all 0.3 ease-in-out;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+figure img {
+    margin: 0;
+    width: 100%;
+}
+/*semantica*/
+body {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Skranji', cursive;
+    font-size: 14px;
+}
+main#marco{
+    background: none;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+
+
+}
+#marco #menu{
+    background-color: yellow;
+    margin: 0;
+    padding: 52px 21px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+
+ 
+}
+ #menu i{
+    font-size: 1.5em  ;
+    
+ }
+ #carrito i{
+    font-size: medium;
+    font-size: 1.5em  ;
+    margin-right: -1000px;
+    margin-top: -20px;
+ }
+
+#class l{
+    margin-top: 50%  ;
+    top: 50%;
+}
+#marco #botellas{
+   
+    margin: 0;
+    padding: 52px 21px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    z-index: 1;
+}
+#marco #botellas article.botella{
+    top: 40px;
+    border-radius: 420px;
+    background-color: rgb(227,230,233);
+    box-shadow: 0px 4px 16px rgb(130,130,130,0.35);
+    margin: 10px;
+    padding: 16px 42px 30px 48px;
+    position: relative;
+    width: 200px;
+    z-index: 2;
+
+}
+article.botella figure{
+
+    border-radius: 50%;
+    height: 100%;
+    box-shadow: 0px 4px 16px rgb(130,130,130,0.35);
+    left: -65px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    margin: 0;
+}
+article.botella a{
+    background-color: #0cfc2c;
+    border-radius: 50%;
+    box-shadow: 0px 3px 11px rgb(130,130,130,0.35);
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    display: grid;
+    place-items: center;
+
+}
+article.botella a i{
+        font-size: 26px;
+
+}
+article.botella h3{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 1.3em;
+    margin: 0 0 4px 0;
+}
+article.botella p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+#cocaa{
+    background: url('../imagenes/cocaa.jpeg') center center /cover no-repeat;
+}
+#fanta{
+    background: url('../imagenes/fanta.jpeg') center center /cover no-repeat;
+}
+#fernet{
+    background: url('../imagenes/fernet.jpeg') center center /cover no-repeat;
+}
+#perinon{
+    background: url('../imagenes/periñone.jpeg') center center /cover no-repeat;
+}
+#moed{
+    background: url('../imagenes/moet.jpeg') center center /cover no-repeat;
+}
+
+
